@@ -1,9 +1,9 @@
 import React from 'react';
-import {DbServiceClass} from "./db.service.class";
+import {DbServiceObject} from "./db.service.object";
 
 function App() {
-  const load1 = () => new DbServiceClass().load('load 1');
-  const load2 = () => new DbServiceClass().load('load 2');
+  const load1 = () => DbServiceObject.load('load 1');
+  const load2 = () => DbServiceObject.load('load 2');
   return (
     <div className="App">
       <header className="App-header">
