@@ -1,4 +1,4 @@
-export class DbServiceClass {
+export class SingletonClass {
   id = Math.random();
 
   load(request: string) {
@@ -6,4 +6,4 @@ export class DbServiceClass {
   }
 }
 
-export const dbServiceClass = new DbServiceClass();
+export const dbServiceClass = new SingletonClass();
