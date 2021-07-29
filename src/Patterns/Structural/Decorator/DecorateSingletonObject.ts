@@ -1,4 +1,4 @@
-import {SingletonObject} from "../../Behavioral/Singleton/SingletonObject";
+import {SingletonObject} from "../../Creational/Singleton/SingletonObject";
 
 
 export const decorateSingletonObject = (original: typeof SingletonObject) => ({

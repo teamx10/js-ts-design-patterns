@@ -1,8 +1,8 @@
 import React, {FC} from "react";
-import {dbServiceClass} from "../Patterns/Behavioral/Singleton/SingletonClass";
-import {SingletonClass2} from "../Patterns/Behavioral/Singleton/SingletonClass2";
-import {SingletonObject} from "../Patterns/Behavioral/Singleton/SingletonObject";
-import {SingletonObject2} from "../Patterns/Behavioral/Singleton/SingletonObject2";
+import {dbServiceClass} from "../Patterns/Creational/Singleton/SingletonClass";
+import {SingletonClass2} from "../Patterns/Creational/Singleton/SingletonClass2";
+import {SingletonObject} from "../Patterns/Creational/Singleton/SingletonObject";
+import {SingletonObject2} from "../Patterns/Creational/Singleton/SingletonObject2";
 
 interface Props {
   id: number;

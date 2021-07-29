@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button} from "./Components/Button";
+import {MainComponent} from "./Patterns/Behavioral/Observer/MainComponent";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       </header>
       <Button id={1} />
       <Button id={2} />
+      <hr />
+      <MainComponent />
     </div>
   );
 }

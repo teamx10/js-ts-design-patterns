@@ -1,4 +1,4 @@
-import {SingletonClass} from "../../Behavioral/Singleton/SingletonClass";
+import {SingletonClass} from "../../Creational/Singleton/SingletonClass";
 
 export class DecorateSingletonClass implements SingletonClass {
   id: number;
